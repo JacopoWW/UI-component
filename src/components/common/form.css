@@ -1,0 +1,58 @@
+:root {
+  --mediumBorderColor: #b3b3b3;
+  --alertColor: #ff2e4c;
+  --lightGrey: #eee;
+  --mainBackground: #fff;
+}
+
+.module-card {
+  margin-top: .661614rem;
+  padding: .827017rem;
+  background: var(--mainBackground);
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(26, 26, 26, 0.1);
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+.form {
+  padding: 1em 2em;
+}
+  
+.form .input-wrap {
+  position: relative;
+}
+    
+.form .input-wrap .error {
+  position: absolute;
+  top: 0;
+  right: 0;
+  line-height: 1.984841rem;
+  font-size: .49621rem;
+  color: var(--alertColor);
+}
+
+.form .input-wrap input {
+  display: block;
+  padding: 0;
+  width: 100%;
+  font-size: .620263rem;
+  line-height: 1.984841rem;
+  border: none;
+  border-bottom: 1px solid var(--lightGrey);
+  text-indent: 1em;
+}
+.form .button {
+  margin-top: 2em;
+  text-align: center
+}
+.form .button button {
+  width: 5em;
+  margin: .413508rem .620263rem;
+}
